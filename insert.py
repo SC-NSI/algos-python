@@ -23,11 +23,5 @@ def insert(t,i):
 def testinsert():
     t=[3,4,2]
     i=2
-
-    for index in range(i,0,-1):
-        if t[index] < t[index-1]:
-            swap(t, index-1, index)
-        else:
-            break
-
+    insert(t,i)
     return t

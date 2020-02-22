@@ -21,9 +21,7 @@ def testswap():
     i=0
     j=1
 
-    save=t[i]
-    t[i]=t[j]
-    t[j]=save
+    swap(t,i,j)
 
     return t
 
@@ -36,6 +34,6 @@ def testswap2():
     i=0
     j=1
 
-    t[i] , t[j] = t[j] , t[i]
+    swap2(t,i,j)
 
     return t

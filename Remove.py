@@ -1,4 +1,4 @@
-ef remove(t,i):
+def remove(t,i):
 
     resultat=[0]*(len(t)-1)
     for j in range(len(t)):

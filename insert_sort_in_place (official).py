@@ -33,8 +33,5 @@ def insertion_sort_in_place(t):
 
 def testinsertion_sort_in_place():
     t=[9,8,7,6,5,4,3,2,1]
-
-    for i in range(1, len(t)):
-        insert(t,i)
-
+    insertion_sort_in_place(t)
     return t
